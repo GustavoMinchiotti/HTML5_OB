@@ -42,8 +42,8 @@ los datos.
 Hay 2 *métodos* para esto uno es `GET` y el otro `POST` el primero get se utiliza para html, el segundo se utiliza para 
 interactuar con servidores y BB DD.
 
-En nuestro ejemplo utilizamos el método `GET` y para que se pueda acceder en la etiqueta input es necesario establecer 
-un nombre ``name`` 
+En nuestro ejemplo utilizamos el método `GET` y para que se pueda acceder en la etiqueta **input** es necesario establecer 
+un nombre ``name`` también `id` y si quiero que sea un campo obligatorio le agrego el atributo `required`
 #### Cargo los datos
 ![img_6.png](img_6.png) 
 #### Quedan almacenados y se ven el la barra de dirección
@@ -61,8 +61,30 @@ Para saber acerca de los atributos dentro de las etiquetas puedo consultar la do
 en: https://www.w3schools.com/tags/ref_attributes.asp.
 
 ### Botones
+Dos de los botones más utilizados son, según su acción `submit` y `reset`. 
 
-    
+En sus respectivos inputs a través de sus atributos establezco el tipo ``type`` en nombre texto y en contraseña password.
+Otros ejemplos son número, e-mail, fecha.. sencillamente, me va a requerir esos tipos de datos.
+![img_12.png](img_12.png)
+
+![img_13.png](img_13.png)
+
+### Tablas
+Al menos en la 1.er clase no hay demasiado para explicar, las etiquetas son sencillas y la tabla si no le pasamos formato 
+va tomando forma sola. 
+
+etiquetas de esta clase: ``<table> / <th> / <td>``
+ Ejercicio n.º 2:
+![img_14.png](img_14.png) 
+![img_15.png](img_15.png)
+![img_16.png](img_16.png)
+Lo interesante del resultado es que el **live server** abrio la carpeta superior a donde está creado este trabajo.
+
+![img_17.png](img_17.png) 
+
+Sin live server, o sea "open in default browser" arrojó este resultado
+
+
 
 
 
