@@ -15,9 +15,13 @@ Por ahora solo explicación de etiquetas sencillas y comentarios.
 ![](C:/Users/gustavo/AppData/Local/Temp/better-comments.png) ![img_4.png](img_4.png)
 
 Habiendo configurado *prettier* como estilo de **formato de documento** con la combinación `shift + alt + f` mejora 
-el formato de manera automática.
+el formato de manera automática. **No sé, por qué hubo una actualización y pensé que se había roto la app**
 
+Descargué un diccionario inglés y uno español abarca el espacio de trabajo y la sección de carpetas también, 
+con crt +. me ofrece las correcciones.
 
+#### Path Intellisense: Me resolvió el tema de insertar imágenes de otra carpeta en VsCode
+Para insertar multimedia pongo "/" y me abre las rutas gracias al plugin nuevo 
 
 ## Clase N°1 
 ### Etiquetas Habituales
@@ -82,10 +86,29 @@ Lo interesante del resultado es que el **live server** abrio la carpeta superior
 
 ![img_17.png](img_17.png) 
 
-Sin live server, o sea "open in default browser" arrojó este resultado
+Sin live server, o sea "open in default browser" arrojó este resultado.
 
+**En github el ejercicio siguiente.**
 
+## Clase nº3 
+### Multimedia
 
+#### Imágenes
+*He descargado una imagen un video y un audio para explicar las etiquetas.* https://www.w3schools.com/html/html_images.asp
 
+The `<img>` tag has two required attributes:
 
+``src`` - Specifies the path to the image
+``alt`` - Specifies an alternate text for the image
+
+``<img src="url" alt="alternatetext">``
+
+Para usar imágenes de internet puedo copiar la dirección de imagen.
+
+#### Videos
+Los navegadores soportan varios formatos, se puede manipular altura y ancho como enm las imágenes, también utilizar 
+autoplay aunque no es muy recomendado. Son útiles los atributos, ``mute`` y ``loop``.
+
+#### Audio
+Muy similar a video en este caso utilizo la sintaxis del profesor a diferencia de video que use la sugerida por vsCode.
 

@@ -1,6 +1,7 @@
 {
     "recommendations": [
         "anteprimorac.html-end-tag-labels",
-        "aaron-bond.better-comments"
+        "aaron-bond.better-comments",
+        "esbenp.prettier-vscode"
     ]
 }
