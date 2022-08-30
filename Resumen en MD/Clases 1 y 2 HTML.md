@@ -112,3 +112,56 @@ autoplay aunque no es muy recomendado. Son útiles los atributos, ``mute`` y ``l
 #### Audio
 Muy similar a video en este caso utilizo la sintaxis del profesor a diferencia de video que use la sugerida por vsCode.
 
+## Clase nº4
+### Intro a las hojas de estilo (CSS)
+Custom Style Sheet = css
+
+![img_18.png](img_18.png) Creación de la hoja de CSS. 
+#### Para relacionarlo con la html desde dentro de head creo un link a CSS.
+![img_19.png](img_19.png)
+
+Le informo que es una hoja de estilo y brindo la ruta.
+
+Comenzando con lo básico:
+en esta sencilla etiqueta, digo que modifique todos los ``H1``, los parámetros van entre ``{}`` y esta vez solo modifiqué 
+el color de la fuente.
+
+![img_20.png](img_20.png)   ![img_25.png](img_25.png) 
+
+![img_21.png](img_21.png)
+
+Para inspeccionar elementos, los selecciono --> luego click derecho --> inspeccionar. 
+La herramienta de google me dice que es un h1 y muestra su estilo en css.
+
+![img_22.png](img_22.png) ![img_23.png](img_23.png)
+![img_24.png](img_24.png)
+
+### Selectores en CSS
+
+Para poder diferenciar y modificar etiquetas por ejemplo didtintos párrafos usamos **SELECTORES** hay 5 grandes 
+tipos los 2 más importantes son:
+* **clases** --> *toda una clase con atributos comunes*
+* **id** --> *un único elemento modificado*
+
+En html en las respectivas etiquetas creo el selector particular y en css una vez relacionados hago las modificaciones
+o reglas de estilo. https://www.w3schools.com/css/css_selectors.asp
+
+HTML para llamar a las dos: ![img_28.png](img_28.png)
+
+#### Ejemplo con Class: la sintaxis es `.` + `nombre clase` (sin espacios)
+
+![img_27.png](img_27.png)
+
+#### Ejemplo con ID: la sintaxis es `#` mas nombre `id`
+![img_26.png](img_26.png)
+
+#### Selector universal
+Con `*` puedo hacer selecciones universales a didtintos elementos, botones, párrafos, títulos etc. 
+y algunas mezclas por ejemplo en la noticia cuatro, class warning + id.
+
+![img_29.png](img_29.png)
+
+En el último ejemplo agrupo reglas en clases, encabezados etc. 
+
+![img_30.png](img_30.png) ![img_31.png](img_31.png)
+

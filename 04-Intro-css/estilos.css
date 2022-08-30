@@ -1,0 +1,36 @@
+h1 {
+  color: crimson;
+}
+/* comentarios en CSS /* También sirve la app better comments
+*/
+p {
+  color: darkblue; /*? Value pair, "propiedad: valor;" */
+  font-size: 16pt;
+}
+.Encabezado {
+  font-family: Arial, Helvetica, sans-serif;
+  text-transform: uppercase;
+}
+
+#noti-1 {
+  color: green;
+  font-size: 12pt;
+}
+#noti-2 {
+  color: darkred; /* en este caso no modifiqué el tamaño particular y quedo el global*/
+}
+
+#noti-3 {
+  color: goldenrod; /* con ctr + espacio abre las opciones de color*/
+}
+
+*.warning {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: bold;
+  color: rgb(47, 73, 22);
+}
+
+.uno, .dos, .tres, #noti-5 {
+    text-decoration: underline;
+    text-transform: capitalize;
+}
