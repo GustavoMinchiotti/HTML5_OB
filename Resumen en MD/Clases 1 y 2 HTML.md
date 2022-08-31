@@ -203,3 +203,13 @@ También se pueden manejar los ejes x e y, en la sintaxis va a ser primero horiz
 ![img_43.png](img_43.png) ![img_44.png](img_44.png)
 
 ### Fuentes en CSS
+* La primera opción es usar las fuentes por defecto, no todas soportan todos los parámetros como peso por ejemplo.
+* La segunda es importar desde **google fonts** u otra URL. 
+
+* A su vez hay dos formas de importar desde el link y pegarlo en el head de html o copiar el estilo en css.
+* Estas 2 formas están explicadas en los comentarios de las capturas y en el texto de html también.
+![img_45.png](img_45.png)
+![img_46.png](img_46.png)
+SALIDA
+
+![img_47.png](img_47.png)
