@@ -1,0 +1,9 @@
+.encabezado{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; /*solo por práctica no pedido*/
+}
+#elemento-1{
+    color: darkred;
+}
+ul li#elemento-1{
+    font-size: 2rem;
+}
