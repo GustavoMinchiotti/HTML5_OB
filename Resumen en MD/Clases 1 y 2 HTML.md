@@ -11,8 +11,7 @@ Nada demasiado importante, ver luego como habilitar live server para que actuali
 Por ahora solo explicación de etiquetas sencillas y comentarios.
 
 ### Instale better comments funciona dentro del comentario por defecto sino NO
-![img_2.png](img_2.png)
-![](C:/Users/gustavo/AppData/Local/Temp/better-comments.png) ![img_4.png](img_4.png)
+![img_2.png](img_2.png) ![img_4.png](img_4.png)
 
 Habiendo configurado *prettier* como estilo de **formato de documento** con la combinación `shift + alt + f` mejora 
 el formato de manera automática. **No sé, por qué hubo una actualización y pensé que se había roto la app**
@@ -50,7 +49,7 @@ En nuestro ejemplo utilizamos el método `GET` y para que se pueda acceder en la
 un nombre ``name`` también `id` y si quiero que sea un campo obligatorio le agrego el atributo `required`
 #### Cargo los datos
 ![img_6.png](img_6.png) 
-#### Quedan almacenados y se ven el la barra de dirección
+#### Quedan almacenados y se ven en la barra de dirección
 ![img_5.png](img_5.png)
 #### Con este ejemplo muestro que si solo creo la etiqueta y campo, pero no agrego los atributos este existe pero no se guarda
 ![img_7.png](img_7.png)     ![img_8.png](img_8.png)
@@ -77,7 +76,7 @@ Otros ejemplos son número, e-mail, fecha.. sencillamente, me va a requerir esos
 Al menos en la 1.er clase no hay demasiado para explicar, las etiquetas son sencillas y la tabla si no le pasamos formato 
 va tomando forma sola. 
 
-etiquetas de esta clase: ``<table> / <th> / <td>``
+Etiquetas de esta clase: ``<table> / <th> / <td>``
  Ejercicio n.º 2:
 ![img_14.png](img_14.png) 
 ![img_15.png](img_15.png)
@@ -113,7 +112,9 @@ autoplay aunque no es muy recomendado. Son útiles los atributos, ``mute`` y ``l
 Muy similar a video en este caso utilizo la sintaxis del profesor a diferencia de video que use la sugerida por vsCode.
 
 ## Clase nº4
-### Intro a las hojas de estilo (CSS)
+### Intro a las hojas de estilo (CSS)  
+***Con ctrl + ç inserto comentario en VsCode***
+
 Custom Style Sheet = css
 
 ![img_18.png](img_18.png) Creación de la hoja de CSS. 
@@ -138,7 +139,7 @@ La herramienta de google me dice que es un h1 y muestra su estilo en css.
 
 ### Selectores en CSS
 
-Para poder diferenciar y modificar etiquetas por ejemplo didtintos párrafos usamos **SELECTORES** hay 5 grandes 
+Para poder diferenciar y modificar etiquetas por ejemplo distintos párrafos usamos **SELECTORES** hay 5 grandes 
 tipos los 2 más importantes son:
 * **clases** --> *toda una clase con atributos comunes*
 * **id** --> *un único elemento modificado*
@@ -152,11 +153,11 @@ HTML para llamar a las dos: ![img_28.png](img_28.png)
 
 ![img_27.png](img_27.png)
 
-#### Ejemplo con ID: la sintaxis es `#` mas nombre `id`
+#### Ejemplo con ID: la sintaxis es `#` más nombre `id`
 ![img_26.png](img_26.png)
 
 #### Selector universal
-Con `*` puedo hacer selecciones universales a didtintos elementos, botones, párrafos, títulos etc. 
+Con `*` puedo hacer selecciones universales a distintos elementos, botones, párrafos, títulos etc. 
 y algunas mezclas por ejemplo en la noticia cuatro, class warning + id.
 
 ![img_29.png](img_29.png)
@@ -165,3 +166,40 @@ En el último ejemplo agrupo reglas en clases, encabezados etc.
 
 ![img_30.png](img_30.png) ![img_31.png](img_31.png)
 
+### Las tres formas de insertar estilos
+1. Desde una hoja de estilo CSS a través de un link
+2. Con la etiqueta style dentro de head
+3. Insertando una hoja CSS desde una url externa
+4. Como agregado se puede dar estilo desde un elemento particular en su etiqueta de apertura.
+
+Ejemplo en carpeta **04-Intro-css** página **utilidadesCss**
+
+### Colores
+https://coolors.co/ = pagina para paletas de colores
+clase muy básica ver la herramienta coolors, esta muy buena.
+![img_32.png](img_32.png)
+![img_33.png](img_33.png) Salida ![img_34.png](img_34.png)
+
+### Fondos de colores e imágenes
+#### Tres formas más comunes 
+* colores básicos
+* insertar desde URL
+* insertar desde archivo
+
+También se pueden manejar los ejes x e y, en la sintaxis va a ser primero horizontal luego vertical
+![img_36.png](img_36.png) ![img_37.png](img_37.png)
+![img_38.png](img_38.png)
+
+### Estilos de altura anchura padding y margin
+**¡Solo a modo de ejemplo porque usar ancho y largo en pixeles no es responsive!!!**
+
+ ![img_40.png](img_40.png) ![img_39.png](img_39.png) ![img_41.png](img_41.png)
+ 
+* Padding: es el espacio interno, se puede manipular individualmente: izq. der. arriba, abajo o de manera general.
+
+![img_42.png](img_42.png)
+
+* Margen: es el espacio por fuera del elemento la distancia a otros elementos. 
+![img_43.png](img_43.png) ![img_44.png](img_44.png)
+
+### Fuentes en CSS

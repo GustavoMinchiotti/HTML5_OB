@@ -1,0 +1,59 @@
+/* *Estilos para colores  */
+/* con "ctrl + ç" puedo hacer y des hacer comentarios */
+.colores {
+  color: orangered;
+}
+
+.color-hexadecimal {
+  color: #f18f01; /*para definir un color hexadecimal primero inserto " # "*/
+}
+
+.color-rgb {
+  color: rgb(100, 0, 200);
+}
+
+.color-rgba {
+  color: rgba(10, 10, 10, 0.2);
+}
+/*fondos / background*/
+.fondo-color {
+  background-color: cornflowerblue;
+}
+
+.fondo-URL {
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSkwMtnX--rA4A_UGMUbWVOGuzXT4zadhwwRg&usqp=CAU);
+  /*simplemente selecciono una imagen copio la dirección y la inserto*/
+  background-position: center;
+}
+.fondo-archivo {
+  background-image: url(/04-Intro-css/imagenes/black-gold.jpg);
+  background-position: left, bottom;
+  background-size: 500px;
+  color: rgba(0, 255, 255, 0.904);
+}
+/* Tamaños */
+.ancho{
+  background-color: darkcyan;
+  width: 80px;
+}
+.alto{
+  background-color: rgba(127, 255, 212, 0.699);
+height: 200px;
+}
+
+.tarjeta{
+border-style: dotted;
+border-color: blue;
+border-width: 3px;
+padding: 10px 20px;
+/* padding: 10px 20px 30px 40px; */
+margin: 10px 20px;
+
+}
+.encabezado{
+font-family: Arial, Helvetica, sans-serif;
+}
+
+.descripcion{
+font-family: fantasy;
+}

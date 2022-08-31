@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Utilidades css</title>
+    <link rel="stylesheet" href="estilos.css">
+    <!--link a un hoja de estilos local FORMA 1-->
+    <style>
+        li {
+            background-color: lightslategray;
+            font-family: 'Lucida Sans', Arial, sans-serif;
+            font-size: 15pt;
+        }
+    </style>
+    <!--Desde dentro de head FORMA 2-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/purecss@2.1.0/build/pure-min.css">
+    <!--link a un hoja de estilos remota FORMA 3-->
+</head>
+
+<body>
+    <h1>Tres formas de insertar estilos</h1>
+    <br>
+    <ol>
+        <li>A traves del link a la hoja CSS</li>
+        <li>Con la etiqueta style dentro de head</li>
+        <li>Importar estilos de una url ejemplo: "https://purecss.io/"</li>
+        <li>Como agregado se puede dar estilo in-line</li>
+    </ol>
+    <button>botón por defecto</button>
+    <button class="pure-button pure-button-active">con estilo importado</button>
+    <button style="border: none; border-radius: 10px; color: chocolate;"> in-line </button>
+</body>
+
+</html>
