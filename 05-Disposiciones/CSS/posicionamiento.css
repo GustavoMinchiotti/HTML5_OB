@@ -1,0 +1,48 @@
+div {
+  border: 1px solid gray;
+  padding: 5px;
+  margin: 5px;
+}
+
+/* Se posiciona en relación al posicionamiento original */
+.relative {
+  position: relative;
+  left: 50px;
+}
+
+/*Siempre sea cual sea el tamaño de la pagina o como se use el scroll va a estar en esa posición*/
+/*Está bueno para botones como link a redes por ejemplo */
+.fixed {
+  position: fixed;
+  bottom: 0px;
+  left: 0px;
+  background-color: rgb(85, 235, 172);
+  z-index: 10; /* esto lo hace estar por delante de otros objetos*/
+}
+
+/*absoluto se va a mover con su elemento padre, por ejemplo si esta dentro de un div en 
+particular y no queda por delante como el fixed  */
+/* Posicionamiento absoluto */
+.absolute {
+    position: absolute;
+    bottom: 30px;
+    right: 0px;
+}
+
+.relative.contenedor {
+    width: 300px;
+    height: 300px;
+    background-color: blue;
+    color: antiquewhite;
+}
+
+/* Posicionamiento "pegajoso" - Al hacer scroll modifica su posicionamiento relative->fixed */
+/*? como ejemplo los menus que una vez que hago scroll quedan arriba pegados pero no desaparecen de la pantalla*/
+.sticky {
+    position: -webkit-sticky; /* Safari */
+    position: sticky; /* IE ni Safari soporta sticky */
+    background-color: rgb(192, 58, 13);
+    color: white;
+    top: 0px;
+    z-index: 2;
+}

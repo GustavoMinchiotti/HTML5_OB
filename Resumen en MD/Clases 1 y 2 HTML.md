@@ -213,3 +213,36 @@ También se pueden manejar los ejes x e y, en la sintaxis va a ser primero horiz
 SALIDA
 
 ![img_47.png](img_47.png)
+
+## Clase Nº5
+### Disposiciones y alineaciones == Block and Inline Elements
+https://www.w3schools.com/html/html_blocks.asp 
+
+#### Hay dos valores de visualización: bloque y en línea.
+##### *Elementos a nivel de bloque*
+Un elemento a nivel de bloque siempre comienza en una nueva línea y los navegadores automáticamente agregan algo de 
+espacio (un margen) antes y después del elemento.
+
+Un elemento a nivel de bloque siempre ocupa todo el ancho disponible (se extiende hacia la izquierda y hacia la derecha
+tanto como puede).
+
+Dos elementos de *bloque* de uso común son: ``<p>`` y `<div>`.
+
+* El elemento`<p>` define un párrafo en un documento HTML.
+
+* El elemento`<div>` define una división o una sección en un documento HTML.
+
+El elemento ` <p>` es un elemento a nivel de bloque al igual que `<div>`.
+
+##### *Elementos en línea*
+Un elemento en línea no comienza en una nueva línea solo ocupa el ancho necesario.
+
+Por ejemplo `spam`.
+
+La diferencia entre **display** *inline* y *block* es que en el primero solo puedo cambiar el ancho porque por defecto 
+se ajusta a la altura de la línea, en cambio, *block* e *inline-block* ajusto ambos ejes X e Y.
+
+### Posicionamiento
+En este caso con los comentarios de los dos documentos html y css es suficiente.
+* para probar como funcionan usar el navegador en una ventana muy chica y utilizar el scroll.
+### FlexBox

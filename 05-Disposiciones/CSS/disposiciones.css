@@ -1,0 +1,22 @@
+.div-1,
+.div-2 {
+  background-color: rgb(1, 105, 1);
+  /* display: block; */
+}
+.img {
+  width: 40px;
+  height: 40px;
+  /* display: inline, block; */
+}
+.span-1 {
+  background-color: rgb(212, 117, 0);
+  /* display: inline; */
+}
+.span-2 {
+  background-color: rgb(212, 117, 0);
+  /* display: inline; */
+  float: right; /*propiedad ...*/
+}
+/* la diferencia entre display inline y block es que en el primero 
+solo puedo cambiar el ancho porque por defecto se ajusta a la altura 
+de la línea, en cambio block e inline-block ajusto ambos ejes X e Y */
