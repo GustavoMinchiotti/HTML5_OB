@@ -245,4 +245,31 @@ se ajusta a la altura de la línea, en cambio, *block* e *inline-block* ajusto a
 ### Posicionamiento
 En este caso con los comentarios de los dos documentos html y css es suficiente.
 * para probar como funcionan usar el navegador en una ventana muy chica y utilizar el scroll.
-### FlexBox
+### FlexBox (vistas responsive)
+`Display flex` va a hacer que todo lo que este dentro de un contenedor se ordene dentro de sus límites.
+
+![img_50.png](img_50.png)
+
+hay muchas opciones asi que dejo el link a la cheat sheet https://i.redd.it/vd9dc7wfk9471.png
+
+grid cheat sheet https://www.reddit.com/r/webdev/comments/okwrtx/grid_css_cheat_sheet/
+
+para ver el flex de manera interactiva: https://codepen.io/enxaneta/full/adLPwv
+
+### Overflow
+https://www.w3schools.com/css/css_overflow.asp
+
+The CSS overflow property controls what happens to content that is too big to fit into an area.
+No guardo imagen, simplemente muestra distintas formas de tratar textos grandes que desbordan el contenedor.
+
+### Trabajando la opacidad y galerías de imágenes
+https://www.w3schools.com/css/css_image_transparency.asp
+
+The opacity property specifies the opacity/transparency of an element. The opacity property can take a value 
+from 0.0 - 1.0. The lower the value, the more transparent.
+
+También se trabajó hover
+
+### Reproductores de vídeo
+
+ 

@@ -17,7 +17,8 @@ div {
   bottom: 0px;
   left: 0px;
   background-color: rgb(85, 235, 172);
-  z-index: 10; /* esto lo hace estar por delante de otros objetos*/
+  z-index: 10; /* esto lo hace estar por delante de otros objetos /// 
+  The z-index property specifies the stack order of an element.*/
 }
 
 /*absoluto se va a mover con su elemento padre, por ejemplo si esta dentro de un div en 
