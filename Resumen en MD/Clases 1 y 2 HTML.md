@@ -19,9 +19,12 @@ el formato de manera automática. **No sé, por qué hubo una actualización y p
 Descargué un diccionario inglés y uno español abarca el espacio de trabajo y la sección de carpetas también, 
 con crt +. me ofrece las correcciones.
 
-#### Path Intellisense: Me resolvió el tema de insertar imágenes de otra carpeta en VsCode
+#### *Path Intellisense:* Me resolvió el tema de insertar imágenes de otra carpeta en VsCode
 Para insertar multimedia pongo "/" y me abre las rutas gracias al plugin nuevo 
 
+* Para seleccionar y modificar varias líneas a la vez en VsCode usar `alt` + `clic izq.`
+
+* Para ajuste de línea `alt` + `z`
 ## Clase N°1 
 ### Etiquetas Habituales
 
@@ -271,5 +274,51 @@ from 0.0 - 1.0. The lower the value, the more transparent.
 También se trabajó hover
 
 ### Reproductores de vídeo
+En esta lección se estableció un video como fondo de una página
 
+## Clase Nº6
+### Anidación de selectores
+Con el ejemplo de las carpetas de windows de padres a hijos puedo ir anidando selectores de lo general a lo particular
+teniendo cuidado de no sobreescribir.
+
+Una de las ventajas es reducir el código en CSS 
+### Pseudo clases
+https://www.w3schools.com/css/css_pseudo_classes.asp
+
+What are Pseudo-classes?
+A pseudo-class is used to define a special state of an element.
+
+For example, it can be used to:
+
+* Style an element when a user mouses over it
+
+* Style visited and unvisited links differently
+
+* Style an element when it gets focus
+
+### Pseudo elementos
+https://www.w3schools.com/css/css_pseudo_elements.asp
+
+Todos los elementos tienen un after y un before, muy sencilla y amena la clase, voy a copiar y pegar desde el repo
+y ante la duda la clase es tan corta que la vuelvo a ver. 
+### Especificidad
+https://www.w3schools.com/css/css_specificity.asp
+
+https://specificity.keegan.st/ calculadora !!!!
+
+What is Specificity?
+If there are two or more CSS rules that point to the same element, the selector with the highest specificity 
+value will "win", and its style declaration will be applied to that HTML element.
+
+Think of specificity as a score/rank that determines which style declaration are ultimately applied to an element.
+
+ Ver en la página W3Schools está bien explicado, básicamente a cada nivel le corresponde un valor numérico y se
+ suman si se combinan.
+ ![graf](C:/Users/gustavo/Downloads/specifishity.png)
  
+https://designshack.net/articles/css/what-the-heck-is-css-specificity/
+
+![img_48.png](img_48.png)
+
+Posicionado sobre el selector me muestra el n.º de especificidad.
+* `!important` vence a todos los niveles.

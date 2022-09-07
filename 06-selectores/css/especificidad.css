@@ -1,0 +1,9 @@
+h1{
+    color: slategray;
+}
+.head {
+    color: chartreuse; /* si tienen la misma importancia prevalece el último*/
+}
+p{
+    color: darkred;
+}

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>pseudo-clases</title>
+            <!--? https://www.w3schools.com/css/css_pseudo_classes.asp -->
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+        }
+
+        .hover {
+            width: 300px;
+            height: 100px;
+            background-color: bisque;
+        }
+
+        .hover:hover {
+            /* con los dos puntos llamamos a la pseudo clase*/
+            background-color: burlywood;
+        }
+
+        .listado {
+            padding: 15px;
+            background-color: aquamarine;
+        }
+
+        .listado p:first-child {
+            /*le digo que afecte: de la clase listado en los p a el primer hijo*/
+            color: firebrick;
+        }
+                /*importante el orden para que funcione*/
+        a:link {
+            /* Link no visitado todavía */
+            color: deeppink;
+        }
+
+        a:visited {
+            color: crimson;
+        }
+
+        a:hover {
+            color: pink;
+        }
+
+        a:active {
+            color: greenyellow;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="hover">
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Culpa nisi vero numquam. Id qui vitae facere hic
+            fuga
+            cumque voluptatem!</p>
+    </div>
+    <div class="listado">
+        <p>Párrafo 1</p>
+        <p>Párrafo 2</p>
+        <p>Párrafo 3</p>
+    </div>
+    <div class="enlaces">
+        <a href="http://google.com" target="_blank">Google</a>
+        <br>
+        <a href="https://www.w3schools.com/" target="_blank">w3schools </a>
+
+    </div>
+</body>
+
+</html>

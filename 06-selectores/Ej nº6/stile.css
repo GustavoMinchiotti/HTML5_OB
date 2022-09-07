@@ -1,0 +1,68 @@
+* {
+  color: darkolivegreen;
+  background-color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+h1 {
+  font-weight: 800;
+}
+
+.botón {
+  color: rgb(2, 32, 22);
+  border: 2px;
+  border-style: solid;
+  border-color: crimson;
+  background-color: darkturquoise;
+  height: 50px;
+  margin: 60px;
+}
+
+/* mouse over link */
+button:hover {
+  color: #ffffff;
+  background-color: darkgreen;
+}
+
+/* selected link */
+button:active {
+  color: #0000ff;
+}
+
+div #BOT {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.btn:hover {
+  background-color: green;
+  color: white;
+}
+.btn::before {
+  content: "Pasa por encima";
+}
+.btn:hover::before {
+  content: "¡Hecho!";
+}
+
+/*! resolución OB */
+/* body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn:hover {
+    background-color: green;
+    color: white;
+}
+.btn::before {
+    content: "Pasa por encima"
+}
+.btn:hover::before {
+    content: "¡Hecho!"
+} */
+#nota{
+    font-size: xx-large;
+}
