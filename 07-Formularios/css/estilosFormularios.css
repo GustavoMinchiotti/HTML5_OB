@@ -1,0 +1,64 @@
+.input {
+  width: 100%;
+  padding: 5px, 10px;
+  border: solid 2px darkgreen;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+/* importante no dejar espacios*/
+.input[type="password"] {
+  color: darkred;
+  background-color: black;
+}
+
+.input-moderno {
+  border: none;
+  border-bottom: 1px solid #c2c2c2;
+  outline: none; /*borra la linea que envuelve al campo durante el hover*/
+  padding: 5px;
+  color: #5f5f5f;
+}
+.input-moderno::placeholder {
+  color: #c2c2c2;
+} /* pseudo elemento*/
+
+.input-moderno:focus {
+  /* con esta pseudo clase le doy estilo cuando hago foco o estoy dentro del elemento*/
+  border-bottom: 1px solid #5f5f5f;
+}
+
+.input-background {
+  background-color: aquamarine;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  outline: none;
+  color: white;
+  box-shadow: 0 0 10px #ccc;
+}
+.input-background::placeholder {
+  color: #ccc;
+}
+
+.input-search {
+  padding: 10px;
+  padding-left: 30px;
+  /* border: none; */
+  background-color: #fff;
+  border-radius: 8px;
+  margin: 10px;
+  background-image: url("/07-Formularios/img/searchicon.png");  /*se puede insertar imágenes en CSS*/
+  background-repeat: no-repeat; /*la img no se repite*/
+  background-position: 5px;
+}
+
+textarea {
+  resize: none;
+}
+
+select {
+  width: 100%;
+  padding: 15px;
+  background-color: #ccc;
+}

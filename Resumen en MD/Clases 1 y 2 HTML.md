@@ -1,5 +1,6 @@
 # HTML intro
 [//]: <> (por comodidad voy a usar un solo archivo MarkDown para varias clases sino todas.)
+<tambien así se comenta>
 ## Instalación de plugins video N.º 2 Y su utilización
 
 Nada demasiado importante, ver luego como habilitar live server para que actualice automáticamente, minuto 14.
@@ -25,6 +26,8 @@ Para insertar multimedia pongo "/" y me abre las rutas gracias al plugin nuevo
 * Para seleccionar y modificar varias líneas a la vez en VsCode usar `alt` + `clic izq.`
 
 * Para ajuste de línea `alt` + `z`
+* Para seleccionar objetos con el mismo nombre y modificarlos juntos es con `ctrl` + `d`
+
 ## Clase N°1 
 ### Etiquetas Habituales
 
@@ -322,3 +325,16 @@ https://designshack.net/articles/css/what-the-heck-is-css-specificity/
 
 Posicionado sobre el selector me muestra el n.º de especificidad.
 * `!important` vence a todos los niveles.
+
+## Clase Nº7 
+### Estilando formularios
+Durante esta clase como indica el título dio estilo a formularios utilizando también pseudo clase y elementos.
+No voy a guardar captura, pero si hay comentarios en el código guardado.
+
+### Creando un formulario moderno - Parte 1
+https://dribbble.com/ 
+
+Al ejercicio lo pude resolver pero hay cosas que voy a preguntar en Discord.
+* si no utilizo live server para visualizar, puedo copiar todo el CSS y pegarlo dentro de `<style>` en el `<head>`
+
+¿por qué funciona distinto en navegadores como chrome y firefox?
