@@ -338,3 +338,6 @@ Al ejercicio lo pude resolver pero hay cosas que voy a preguntar en Discord.
 * si no utilizo live server para visualizar, puedo copiar todo el CSS y pegarlo dentro de `<style>` en el `<head>`
 
 ¿por qué funciona distinto en navegadores como chrome y firefox?
+
+## Clase Nº8 Bootstrap
+### Incluyendo Bootstrap en nuestro proyecto
