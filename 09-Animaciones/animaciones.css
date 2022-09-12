@@ -1,0 +1,72 @@
+.padre {
+  width: 500px;
+  height: 300px;
+  background-color: darkblue;
+}
+
+.hijo {
+  width: 50%;
+  height: 50%;
+  background-color: rgb(250, 121, 0);
+  transition: all 1s; /*luego del hover acá le digo de esta transformación dure 1 segundo*/
+  /* transition: transform 1s;  se va a aplicar solo en la transformación*/
+}
+
+.padre:hover .hijo {
+  /* acá le digo que a cuando haga hover en padre, afecte al hijo de tal manera*/
+  transform: translateX(100%);
+  background-color: rgb(238, 214, 0);
+}
+
+.padre2 {
+  width: 500px;
+  height: 300px;
+  background-color: rgb(116, 0, 139);
+}
+
+.hijo2 {
+  width: 50%;
+  height: 50%;
+  background-color: rgb(245, 146, 53);
+  /* transition: transform 1s linear; va a tardar lo mismo de principio a fin */
+  /* transition: transform 1s ease-in-out; --- es la que viene por defecto va a frenar un poco al final */
+  transition: transform 1s cubic-bezier(0.075, 0.2, 0.165, 1); /** mucho para jugar*/
+  /* transition: transform 1s cubic-bezier(0.075, 0.2, 0.165, 1) 2s; * mucho para jugar --- el segundo valor de tiempo lo va a tomar siempre como delay */
+}
+
+.padre2:hover .hijo2 {
+  /* acá le digo que a cuando haga hover en padre2, afecte al hijo2 de tal manera*/
+  transform: translateX(100%);
+  background-color: rgb(3, 121, 81);
+}
+
+.padre3 {
+  width: 500px;
+  height: 300px;
+  background-color: rgb(0, 88, 139);
+}
+
+.hijo3 {
+  width: 50%;
+  height: 50%;
+  background-color: rgb(202, 0, 0);
+}
+
+.padre3:hover .hijo3 {
+  animation: inventado 2s ease-in-out forwards; /*creo una animación  ---- forwards hace que se quede en el estado 100% durante el hover*/
+}
+
+@keyframes inventado {  /** ver la clase para afianzar hay mas cosas*/
+  0% {
+    background-color: brown; /* en el inicio == 0% le digo...*/
+    transform: translateX(0%);
+  }
+  50% {
+    background-color: white;
+    transform: translateX(10%) translateY(50%);
+  }
+  100% {
+    background-color: darkgoldenrod; /* y al final digo...*/
+    transform: translateX(100%);
+  }
+}

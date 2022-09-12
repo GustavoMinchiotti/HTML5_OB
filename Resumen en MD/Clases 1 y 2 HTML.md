@@ -341,13 +341,36 @@ Al ejercicio lo pude resolver pero hay cosas que voy a preguntar en Discord.
 
 ## Clase Nº8 Bootstrap
 ### Incluyendo Bootstrap en nuestro proyecto
+https://www.w3schools.com/bootstrap/bootstrap_ver.asp
 Según explica en la primer clase es comodo y conveniente importar el css y Js. como links en el HTML en vez de descargar.
-Como la version y la pagina se actualizaron guardo capturas.
+Como la version y la página se actualizaron guardo capturas.
 ![img_49.png](img_49.png)
 
-De esta direccion los copie, y los pego en head al css y al final el js ( segun el profe van luego del cierre de body segun la pagina antes)
+De esta dirección los copié, y los pego en head al css y al final el js ( según el profe van luego del cierre de 
+body según la página antes)
 
 ### Estilos y animaciones de Bootstrap
 Uno de los componentes importantes es el layout y sus breakpoints *para el diseño responsive*
 ![img_51.png](img_51.png)
+
+## Clase Nº9
+### Animaciones y transiciones
+![img_52.png](img_52.png)
+
+Existen 2 formas de animaciones en Css: **transiciones** y **animaciones**, son cambios en los atributos de los elementos.
+
+en el modo desarrollador haciendo clic en el cuadradito de cubic bezier me da opciones gráficas para modificar 
+el tiempo de transición.
+![img_53.png](img_53.png)
+
+Clase muy interesante para practicar transformaciones: movimiento, transparencias etc.
+Se pueden aplicar en cualquier objeto con sin hover. 
+### Tooltips
+https://www.w3schools.com/css/css_tooltip.asp
+
+Demo: Tooltip Examples
+
+A tooltip is often used to specify extra information about something when the user moves the mouse pointer over an 
+element.
+
 
