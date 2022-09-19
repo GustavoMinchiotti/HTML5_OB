@@ -361,6 +361,7 @@ Existen 2 formas de animaciones en Css: **transiciones** y **animaciones**, son 
 
 en el modo desarrollador haciendo clic en el cuadradito de cubic bezier me da opciones gráficas para modificar 
 el tiempo de transición.
+
 ![img_53.png](img_53.png)
 
 Clase muy interesante para practicar transformaciones: movimiento, transparencias etc.
@@ -368,9 +369,84 @@ Se pueden aplicar en cualquier objeto con sin hover.
 ### Tooltips
 https://www.w3schools.com/css/css_tooltip.asp
 
-Demo: Tooltip Examples
+**A tooltip is often used to specify extra information about something when the user moves the mouse pointer over an 
+element.**
 
-A tooltip is often used to specify extra information about something when the user moves the mouse pointer over an 
-element.
+## Clase Nº10 Introducción al diseño responsive
+### Unidades
+* **Pixel valor fijo independiente**
+
+* **Porcentaje valor en relación con el padre o contenedor, este div**
+
+* **View en relación con el ancho de la pantalla**
+
+![img_54.png](img_54.png)
+
+### Responsive y unidades em y rem
+Ejemplo: el iphone 4 tenía un ancho de 320 px físicos, pero cada uno equivalía a 2 px lógicos.
+
+En el head en la línea:
+
+![img_55.png](img_55.png)
+
+Dice que el viewport es del ancho del dispositivo y la relación es de 1 a 1, por cada px físico uno lógico.
+* https://www.w3schools.com/css/css_units.asp
+* https://www.w3schools.com/css/tryit.asp?filename=trycss_unit_em
+* https://www.w3schools.com/css/tryit.asp?filename=trycss_unit_rem
+
+### Media Queries
+#### CSS2 Introduced Media Types
+The @media rule, introduced in CSS2, made it possible to define different style rules for different media types.
+
+Examples: You could have one set of style rules for computer screens, one for printers, one for handheld devices, 
+one for television-type devices, and so on.
+
+Unfortunately these media types never got a lot of support by devices, other than the print media type.
+
+#### CSS3 Introduced Media Queries
+https://www.w3schools.com/css/css3_mediaqueries.asp
+
+Media queries in CSS3 extended the CSS2 media types idea: Instead of looking for a type of device, they look at the 
+capability of the device.
+
+Media queries can be used to check many things, such as:
+
+* width and height of the viewport
+* width and height of the device
+* orientation (is the tablet/phone in landscape or portrait mode?)
+* resolution
+
+Using media queries are a popular technique for delivering a tailored style sheet to desktops, laptops, tablets,
+and mobile phones (such as iPhone and Android phones).
+
+### Uso Avanzado de Flex Box
+Respecto a los flex Tienen 2 ejes principales, el horizontal, que va a ser en el medio por defecto y el vertical 
+también en el medio. _(si cambio el flex-direction cambia cuál es tomado como eje principal!!)_
+
+Dependiendo de la disposición que le doy a los objetos dentro del flex estos van a ocupar el espacio en **row == fila** 
+o **column == columna**.
+
+![img_56.png](img_56.png) ![img_57.png](img_57.png)
+
+Row es la dirección por defecto.
+
+![img_58.png](img_58.png) ![img_59.png](img_59.png)
+
+Hay muchas opciones para alinear justificar y posicionar respecto a los ejes X e Y. 
+
+https://codepen.io/enxaneta/full/adLPwv
+
+### Viewport, Grid y templates
+https://www.w3schools.com/css/css_rwd_grid.asp 
+
+https://www.programandoamedianoche.com/2019/05/guia-completa-para-aprender-a-utilizar-css-grid-layout/
+
+### Variables reutilizables en CSS
+https://www.w3schools.com/css/css3_variables.asp
+
+Se invoca la pseudo clase `:root` se nombran las variables siempre comenzando con 2 -- y en el código más abajo se 
+invocan con, `var()` dentro de los paréntesis van las variables antes creadas.
+
+![img_60.png](img_60.png)
 
 

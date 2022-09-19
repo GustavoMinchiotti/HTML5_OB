@@ -1,0 +1,73 @@
+* {
+  background-color: currentColor;
+}
+
+.contenedor {
+  border: 3px solid darkblue;
+  width: 95vw;
+  height: 50vh;
+  padding: 10px;
+  display: flex;
+  gap: 5px;
+  transition: all 2s;
+}
+
+.barraLateral {
+  border: 1px solid orange;
+  padding: 10px;
+  display: flex; /*si no digo el tipo de display no puedo darle dirección, 1ero display luego, flex-direction*/
+  flex-direction: column;
+  justify-content: space-evenly;
+  gap: 3px;
+  flex-grow: 0.25;
+}
+
+.elem {
+  border: 1px solid rgb(230, 103, 0);
+  padding: 5px;
+  background-color: #411995;
+  min-width: 1rem;
+  color: rgb(138, 136, 136);
+}
+.elem-1 {
+  color: rgb(160, 2, 2);
+}
+
+.main {
+  border: 1px solid olive;
+  padding: 10px;
+  background-color: black;
+  display: flex;
+  flex-grow: 1;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 100;
+  color: rgb(212, 209, 209);
+  text-align: justify;
+  overflow: hidden;
+  text-overflow: clip;
+}
+
+/* .main p{
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  color: rgb(69, 85, 70);
+  display: inline;
+
+} */
+@media (min-width: 640px) {
+  .contenedor {
+    flex-direction: column-reverse;
+    transition: all 2s;
+  }
+  .barraLateral {
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+}
+/*
+La barra lateral izquierda se muestre como una navegación en la parte inferior
+
+La disposición de los elementos de la barra lateral se vuelva horizontal
+
+(Tip: Trabaja con la propiedad flex-direction)
+*/

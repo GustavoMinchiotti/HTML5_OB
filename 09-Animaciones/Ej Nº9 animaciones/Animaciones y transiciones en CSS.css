@@ -21,7 +21,7 @@ div {
   background-color: rgb(64, 64, 99);
   border-radius: 5px;
   color: darkorange;
-  transition-delay: 0.4s;
+  transition-delay: 0.4s; /** corresponde utilizar el delay en el objeto en vez del hover*/
   box-shadow: 5px 5px 3px 10px rgb(61, 61, 61);
 }
 

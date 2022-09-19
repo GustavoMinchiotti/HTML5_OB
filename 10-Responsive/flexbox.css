@@ -1,0 +1,25 @@
+.contenedor {
+  background-color: cadetblue;
+  padding: 0.5rem;
+  display: flex;
+  gap: 0.5rem;
+  min-height: 5rem;
+
+  /*? Eje principal (X) */
+  justify-content: space-around; /* justifica los espacios entre objetos en relación al eje X*/
+
+  /*? Eje secundario (Y) */
+  align-items: center;
+
+  /* flex-direction: column; */
+  flex-wrap: wrap; /* Va a hacer que si se ve comprometido el tamaño se apilen y acomoden los objetos */
+}
+
+.item {
+  background-color: burlywood;
+  padding: 0.25rem;
+}
+
+.item2 {
+  align-self: stretch;
+}

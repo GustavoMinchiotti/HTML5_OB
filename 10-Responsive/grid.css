@@ -1,0 +1,34 @@
+/*! probar todos los comentados*/
+
+.contenedor {
+  display: grid;
+  gap: 0.5rem;
+  /* column-gap: 0.1rem; */
+  /* row-gap: 1rem; */ /** espacio entre filas Y columnas*/
+  /* column-gap: 1rem; */ /** espacio entre columnas */
+  /* row-gap: 2rem;*/ /** espacio entre filas*/
+  /* grid-template-columns: auto auto auto; */ /** me da 3 columnas de tamaño ajustado automático*/
+  /* grid-template-columns: repeat(3, auto); */ /** en este caso repite "3" columnas iguales de tamaño automático*/
+  /* grid-template-columns: 20px 3rem 25vw;  */ /** este ejemplo da a todos los items de la primer columna 20px, la 2da 3rem, etc*/
+  grid-template-columns: 1fr 1fr 3fr; /** fracciones del total del contenedor referente a las columnas*/
+  grid-template-rows: 200px 5rem 100px; /** fracciones del total del contenedor referente a las filas*/
+  /* grid-template-areas: 'head head head' 'main main aside' 'footer footer footer'; */ /** 3 columnas head, 3 main, 3 footer EN 3 filas*/
+}
+
+.item {
+  background-color: rgb(79, 192, 155);
+  padding: 0.25rem;
+  font-size: 2rem;
+  border: solid 1px rgb(15, 15, 59);
+}
+
+.item1 {
+  /* grid-column: 1 / 3; */ /** aca dice que desde la columna 1 ocupe hasta la 3*/
+  grid-column: 2 / span 2; /** aca que desde la columna 2 haga span 2 columnas mas (empieza en el principio de la 2 y termina desde "ahí" en el final de la 2da)*/
+  /* grid-area: head; */ /** ocupa todo el head*/
+}
+
+.item9 {
+  /* grid-area: footer; */  /** se ve claro en el video que ocupa en la 3ra fila las 3 columnas luego siguen los demás elementos*/
+  grid-area: 2 / 1 / 4 / 3;  /** grid-area: fila inicio / col inicio / fila fin / col fin */
+}
