@@ -1,0 +1,31 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+}
+.container {
+  padding: 0.25rem;
+}
+.row {
+  padding: 0.5rem;
+}
+.col{
+    background-color: darkorange;
+}
+.col-sm{
+    background-color: aqua;
+    border: 1px double black;
+    border-radius: 0.5em;
+}
+.col-md{
+    border: 2px solid darkblue;     /** SINTAXIS PARA BORDES https://www.w3schools.com/css/css_border_shorthand.asp */
+}
+.col-lg {
+  background-color: darkcyan;
+  border: 0.4rem outset darkgreen;
+}
+.col-xl{
+    background-color: indianred;
+    border-radius: 1rem;
+}
+
+

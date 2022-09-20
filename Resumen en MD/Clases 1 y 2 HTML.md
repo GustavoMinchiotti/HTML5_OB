@@ -346,8 +346,8 @@ Según explica en la primer clase es comodo y conveniente importar el css y Js. 
 Como la version y la página se actualizaron guardo capturas.
 ![img_49.png](img_49.png)
 
-De esta dirección los copié, y los pego en head al css y al final el js ( según el profe van luego del cierre de 
-body según la página antes)
+De esta dirección los copié, y los pego en head al css y al final el js (según el profe van luego del cierre de 
+body según la página antes) https://getbootstrap.com/docs/5.2/getting-started/introduction/ 
 
 ### Estilos y animaciones de Bootstrap
 Uno de los componentes importantes es el layout y sus breakpoints *para el diseño responsive*
@@ -449,4 +449,13 @@ invocan con, `var()` dentro de los paréntesis van las variables antes creadas.
 
 ![img_60.png](img_60.png)
 
+
+
+## Sistema grid de Bootstrap
+Repasando, una de las mejores cosas de bootstrap es el sistema grid (12 columnas), hay que destacar los breakpoint para
+el diseño responsive, **al utilizar simplemente cualquiera de ellos en css automaticamente al cambiar el tamaño de 
+pantalla se ajustan.** solo tuve que escribir por ej. sm, lg, xxl etc. en la clase de la columna.
+
+![img_61.png](img_61.png) 
+![img_62.png](img_62.png)
 

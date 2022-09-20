@@ -1,0 +1,23 @@
+.row div {
+  margin: 0.25rem;
+}
+.col {
+  background-color: darkcyan;
+}
+.col-sm {
+  background-color: darkred;
+  color: rgb(221, 221, 221);
+}
+.col-md {
+  background-color: orange;
+}
+.col-lg {
+  background-color: darkgreen;
+}
+.col-xl {
+  background-color: darkblue;
+  color: rgb(216, 219, 219);
+}
+.col-xxl {
+  background-color: rgb(230, 152, 165);
+}
