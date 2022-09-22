@@ -342,8 +342,13 @@ Al ejercicio lo pude resolver pero hay cosas que voy a preguntar en Discord.
 ## Clase Nº8 Bootstrap
 ### Incluyendo Bootstrap en nuestro proyecto
 https://www.w3schools.com/bootstrap/bootstrap_ver.asp
+
 Según explica en la primer clase es comodo y conveniente importar el css y Js. como links en el HTML en vez de descargar.
 Como la version y la página se actualizaron guardo capturas.
+
+Es importante destacar que, muchas de las clases que usa el profesor, son una especie de palabra reservada por 
+ejemplo **`container`**
+
 ![img_49.png](img_49.png)
 
 De esta dirección los copié, y los pego en head al css y al final el js (según el profe van luego del cierre de 
@@ -451,7 +456,7 @@ invocan con, `var()` dentro de los paréntesis van las variables antes creadas.
 
 
 
-## Sistema grid de Bootstrap
+## Clase Nº11 Sistema grid de Bootstrap
 Repasando, una de las mejores cosas de bootstrap es el sistema grid (12 columnas), hay que destacar los breakpoint para
 el diseño responsive, **al utilizar simplemente cualquiera de ellos en css automaticamente al cambiar el tamaño de 
 pantalla se ajustan.** solo tuve que escribir por ej. sm, lg, xxl etc. en la clase de la columna.
@@ -459,3 +464,52 @@ pantalla se ajustan.** solo tuve que escribir por ej. sm, lg, xxl etc. en la cla
 ![img_61.png](img_61.png) 
 ![img_62.png](img_62.png)
 
+## Clase Nº12 Aspectos de interés de Boostrap
+### Tablas
+**En esta ocasión pegué el link desde el repo de OB es un link viejo**
+
+**También copié el código para perder menos tiempo**
+
+¡El div de clase **`container`** de bootstrap tiene layouts por defecto!!!
+---Hay muchos plugins para bootstrap en VsCode. 
+
+* Puedo con solo copiar el código de la documentation de boots dar estilo a la tabla entera, a las filas columnas y 
+hacer combinaciones. Pueden ser responsive y responsive con breakpoint determinado.
+
+Ante dudas ver la clase en 2X es muy sencilla.
+
+### Imágenes
+ Hace a las imágenes responsive con: `class="img-fluid"` 
+
+Otra clase muy corta y sencilla donde elige un comportamiento en la pagina de boots lo copia y pega en el código.
+
+### Jumbotron
+Es como un div grande con texto y llamada a la acción 
+* Notas en el código de esta clase 
+
+**Bootstrap 5 Jumbotron**
+
+A jumbotron was introduced in Bootstrap 3 as a big padded box for calling extra attention to some special content or 
+information.
+
+Jumbotrons are no longer supported in Bootstrap 5. However, you can use a `<div>` element and add special helper classes 
+together with a color class to achieve the same effect.
+
+A través de las clases de boots puedo ir copiando el mismo jumbotron o directamente desde las herramientas de 
+desarrollador
+
+### Alertas
+https://www.w3schools.com/bootstrap5/bootstrap_alerts.php 
+
+https://getbootstrap.com/docs/5.2/components/alerts/
+
+Bootstrap 5 provides an easy way to create predefined alert messages
+
+Alerts are created with the .alert class, followed by one of the contextual classes .alert-success, .alert-info, 
+.alert-warning, .alert-danger, .alert-primary, .alert-secondary, .alert-light or .alert-dark.
+
+![img_63.png](img_63.png)
+
+**En la clase también copia y utiliza las clases de bootstrap.**
+
+Al final de la clase utiliza JS es un primer vistazo.
