@@ -454,8 +454,6 @@ invocan con, `var()` dentro de los paréntesis van las variables antes creadas.
 
 ![img_60.png](img_60.png)
 
-
-
 ## Clase Nº11 Sistema grid de Bootstrap
 Repasando, una de las mejores cosas de bootstrap es el sistema grid (12 columnas), hay que destacar los breakpoint para
 el diseño responsive, **al utilizar simplemente cualquiera de ellos en css automaticamente al cambiar el tamaño de 
@@ -513,3 +511,13 @@ Alerts are created with the .alert class, followed by one of the contextual clas
 **En la clase también copia y utiliza las clases de bootstrap.**
 
 Al final de la clase utiliza JS es un primer vistazo.
+### Spinners
+https://getbootstrap.com/docs/5.2/components/spinners/ 
+
+Indicate the loading state of a component or page with Bootstrap spinners, built entirely with HTML, CSS, 
+and no JavaScript.
+
+Está claro en la página de boots. Algunas notas en el código.
+### Tarjetas 
+https://getbootstrap.com/docs/5.2/components/card/
+
