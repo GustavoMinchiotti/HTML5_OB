@@ -27,6 +27,7 @@ Para insertar multimedia pongo "/" y me abre las rutas gracias al plugin nuevo
 
 * Para ajuste de línea `alt` + `z`
 * Para seleccionar objetos con el mismo nombre y modificarlos juntos es con `ctrl` + `d`
+* utilizando ``li *5`` creo una lista de 5 items
 
 ## Clase N°1 
 ### Etiquetas Habituales
@@ -462,7 +463,10 @@ pantalla se ajustan.** solo tuve que escribir por ej. sm, lg, xxl etc. en la cla
 ![img_61.png](img_61.png) 
 ![img_62.png](img_62.png)
 
-## Clase Nº12 Aspectos de interés de Boostrap
+## Clase Nº12 Aspectos de interés de Boostrap (es modificable desde Css)
+https://www.w3schools.com/bootstrap5/bootstrap_utilities.php 
+
+**Muy importante!**
 ### Tablas
 **En esta ocasión pegué el link desde el repo de OB es un link viejo**
 
@@ -520,4 +524,47 @@ and no JavaScript.
 Está claro en la página de boots. Algunas notas en el código.
 ### Tarjetas 
 https://getbootstrap.com/docs/5.2/components/card/
+
+### Listas 1 y 2
+ A medida que voy agregando clases de bootstrap va estilando a las listas. 
+
+ https://getbootstrap.com/docs/5.2/components/list-group/
+ 
+https://www.w3schools.com/bootstrap5/bootstrap_list_groups.php
+
+Creo que va a tener más sentido cuando vea Js.
+### Formularios 1, 2 y 3
+https://www.w3schools.com/bootstrap5/bootstrap_forms.php
+
+https://getbootstrap.com/docs/5.2/forms/overview/
+
+Los range fueron introducidos por google en Material-UI es una biblioteca de código abierto que implementa el lenguaje 
+visual de «materiales» de Google en sus componentes React. Ofrece la capacidad de combinar su biblioteca de interfaz 
+de usuario, con el marco front-end de React.
+Cometarios en el código...
+### Modales, popovers y tooltips
+https://getbootstrap.com/docs/5.2/components/modal/ 
+
+The Modal component is a dialog box/popup window that is displayed on top **(por encima)** of the current page
+Sin comentarios en el código cuando practique ver la clase de nuevo es solo copiar y pegar como todo bootstrap.
+
+**_Fue modificado en css pocas pruebas, el css no pertenece a la clase_**
+
+### Iconos
+https://icons.getbootstrap.com/
+
+Se pueden descargar aunque son muchos, o usar el link como en los demás ejemplos de Bootstrap. _¡Es otro link!!_
+
+![img_64.png](img_64.png)
+
+Copio y pego el código del icono.
+
+![img_65.png](img_65.png)
+
+### Toasts
+Toasts
+The toast component is like an alert box that is only shown for a couple of seconds when something happens 
+(i.e. when the user clicks on a button, submits a form, etc.)
+
+Sólo es inicializado si pego el Js debajo.
 

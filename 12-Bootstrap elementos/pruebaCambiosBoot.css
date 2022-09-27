@@ -1,0 +1,9 @@
+#pruebacss{
+font-weight: 600;
+background-color: black;
+color: darkcyan;
+border-radius: 4px;
+}
+.btn-primary {
+    color: rgb(255, 251, 21);
+}
