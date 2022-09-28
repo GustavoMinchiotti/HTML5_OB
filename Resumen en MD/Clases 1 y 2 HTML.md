@@ -567,4 +567,19 @@ The toast component is like an alert box that is only shown for a couple of seco
 (i.e. when the user clicks on a button, submits a form, etc.)
 
 Sólo es inicializado si pego el Js debajo.
+### Badges
+https://www.w3schools.com/bootstrap5/bootstrap_badges.php
 
+Badges are used to add additional information to any content:
+
+![img_66.png](img_66.png)
+
+Use the `.badge` class together with a contextual class (like `.bg-secondary`) within `<span>` elements to create rectangular 
+badges. Note that badges scale to match the size of the parent element (if any).
+**_Comentarios en un Párrafo en el html_**
+### Progress (barras de progreso)
+https://www.w3schools.com/bootstrap5/bootstrap_progressbars.php
+
+Copió y pegó, me queda la duda de como hacer que la barra vaya siguiendo una carga real.
+### Tipografía en Bootstrap
+El código se entiende solo Ver los comentarios y el mismo texto de la clase.
