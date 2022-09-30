@@ -1,0 +1,20 @@
+.btn {
+  border: none;
+  padding: 0.25rem 0.5rem;
+  color: #2b2b2b;
+
+  /* It's a pseudo-class selector. It's a way to select an element based on a state it's in. In this
+  case, it's selecting the element when the user hovers over it. */
+  &:hover {
+    //?este anidado es exclusivo de Sass
+    background-color: rgb(102, 151, 151);
+    color: rgb(85, 20, 20);
+    cursor: pointer;
+  }
+}
+
+.btn-2 {
+  @extend .btn; //? con @extend heredo de la clase citada y puedo sumar modificaciones
+  margin: 0.5rem;
+  border-radius: 0.25rem;
+}

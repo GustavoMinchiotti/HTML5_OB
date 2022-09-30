@@ -1,0 +1,19 @@
+// Componentes
+@use "sass/componentes";
+// namespace    // la utilización de @use crea un namespace....
+// $color -> comp.$color    // la variable $color esta a modo de ejemplo de la clase Min. 7 del video
+
+// Mixins
+@use "sass/mixins";
+// $color -> $color
+
+// Estilos
+@use "sass/estilos";
+
+// Paginas
+// página principal
+// página de contacto
+// página de aviso legal
+
+// Otros
+@use "sass/builtin";

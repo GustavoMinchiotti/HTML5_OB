@@ -1,0 +1,9 @@
+$text-color: #2b2b2b;
+
+@mixin formato-texto($bg-color: #c2bebe) {
+    color: $text-color;
+    text-transform: uppercase;
+    width: 50rem;
+    background-color: $bg-color;
+    font-family: Arial, Helvetica, sans-serif;
+}

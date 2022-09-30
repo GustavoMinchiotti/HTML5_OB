@@ -1,0 +1,62 @@
+.btn, .btn-2 {
+  border: none;
+  padding: 0.25rem 0.5rem;
+  color: #2b2b2b;
+  /* It's a pseudo-class selector. It's a way to select an element based on a state it's in. In this
+  case, it's selecting the element when the user hovers over it. */
+}
+.btn:hover, .btn-2:hover {
+  background-color: rgb(102, 151, 151);
+  color: rgb(85, 20, 20);
+  cursor: pointer;
+}
+
+.btn-2 {
+  margin: 0.5rem;
+  border-radius: 0.25rem;
+}
+
+/* Importing the mixins.scss file. */
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  width: 100%;
+  background-color: rgb(175, 141, 91);
+  min-height: 100vh;
+  padding: 0.5rem;
+}
+
+h1 {
+  margin: 0;
+  color: #2b2b2b;
+  text-transform: uppercase;
+  width: 50rem;
+  background-color: #c2bebe;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+  color: #2b2b2b;
+  text-transform: uppercase;
+  width: 50rem;
+  background-color: #666666;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.listado {
+  width: 10rem;
+  background-color: rgb(89, 158, 135);
+  padding: 0.5rem;
+}
+.listado ul {
+  margin: 0 0.5rem;
+}
+.listado ul li {
+  list-style: none;
+}
+.listado ul li:hover {
+  color: white;
+}/*# sourceMappingURL=styles.css.map */

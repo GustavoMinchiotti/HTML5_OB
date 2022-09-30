@@ -583,3 +583,86 @@ https://www.w3schools.com/bootstrap5/bootstrap_progressbars.php
 Copió y pegó, me queda la duda de como hacer que la barra vaya siguiendo una carga real.
 ### Tipografía en Bootstrap
 El código se entiende solo Ver los comentarios y el mismo texto de la clase.
+## Usando pre-procesadores CSS
+### Introducción a SASS (leer desde la página de sass la guía)
+
+https://sass-lang.com/guide
+
+https://www.w3schools.com/sass/default.php
+
+Sass es un lenguaje de hoja de estilos en cascada un frameWork. Después de sus versiones iniciales, han continuado extendiendo 
+Sass con SassScript, un lenguaje de script simple, usado en los ficheros Sass. 
+
+_BÁSICAMENTE HACE A CSS MAS PARECIDO A UN LENGUAJE DE PROGRAMACIÓN_
+
+* Sass stands for Syntactically Awesome Stylesheet
+* Sass is an extension to CSS
+* Sass is a CSS pre-processor
+* Sass is completely compatible with all versions of CSS
+* Sass reduces repetition of CSS and therefore saves time
+* Sass was designed by Hampton Catlin and developed by Natalie Weizenbaum in 2006
+* Sass is free to download and use
+
+* https://sass-lang.com/
+
+Dos tipos de documentos: Sass y Scss
+
+![img_67.png](img_67.png) Sass ////// ![img_68.png](img_68.png) Scss
+
+La diferencia principal es que la sintaxis es mas simple en Sass.
+
+Para que reconozca los Sass VsCode instalo: 
+
+![img_69.png](img_69.png)
+
+![img_70.png](img_70.png)  Una vez instalado abro la terminal. 
+
+Luego crea archivos css: ![img_71.png](img_71.png)
+
+A esa hoja css es debe llevar el link desde html.
+
+![img_72.png](img_72.png)
+
+![img_73.png](img_73.png)
+
+#### Sass Nested Rules
+
+Sass lets you nest CSS selectors in the same way as HTML.
+![img_74.png](img_74.png)
+
+### Importación de extensiones
+Como ejemplo en bootstrap tengo la posibilidad de utilizar botones, estos ya estan pre-definidos esto seria igual pero 
+los estilos los creo Yo.
+Entonces genero una carpeta donde voy guardando estas configuraciones de estilos personales como clases por ejemplo para 
+todos los botones.
+Todos los archivos que comiencen con barra baja serán ignorados por el compilador, deben ser importados.
+
+Durante esta clase utiliza `@import` + `nombre del archivo Scss` **_Import va a ser obsoleto dentro de poco_**
+
+### Instalación global SASS y, use vs. import 
+#### **(terrible quilombo de clase mucha instalación y problemas)**
+
+la ultima version Dart Sass utiliza @use y @forward pero es necesario instalarlo.
+
+Para la instalación primero hay que instalar NodeJs: https://nodejs.org/es/ , Luego instalar el NPM de Sass de manera 
+global.
+
+https://www.cursosgis.com/como-instalar-node-js-y-npm-en-4-pasos/  **`Me ayudó con la instalación fue larga`**
+
+![img_75.png](img_75.png)
+
+Ahora si luego de instalar NodeJs y npm en la pc puedo instalar npm en este trabajo en particular, de esta manera:
+
+![img_76.png](img_76.png)
+
+A partir de ahora en vez de utilizar la extension uso la terminal con los siguientes comandos: 
+`sass --watch styles.scss styles.css`
+
+le dije a _sass_ en esta carpeta que este constantemente visualizando a _styles.Scss_ y tenga como output a _styles.Css_
+
+NO FUNCIONABA no tenia privilegios y los cambie desde power shell como admin: https://learn.microsoft.com/es-es/powershell/module/microsoft.powershell.core/about/about_execution_policies?view=powershell-7.2
+
+![img_78.png](img_78.png)
+
+![img_77.png](img_77.png)
+
