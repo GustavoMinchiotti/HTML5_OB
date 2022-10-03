@@ -2,6 +2,7 @@
     "recommendations": [
         "anteprimorac.html-end-tag-labels",
         "aaron-bond.better-comments",
-        "esbenp.prettier-vscode"
+        "esbenp.prettier-vscode",
+        "ardevia.sculptui-vscode"
     ]
 }

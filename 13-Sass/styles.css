@@ -48,7 +48,7 @@ p {
 
 .listado {
   width: 10rem;
-  background-color: rgb(89, 158, 135);
+  background-color: rgb(137, 214, 189);
   padding: 0.5rem;
 }
 .listado ul {
@@ -58,5 +58,5 @@ p {
   list-style: none;
 }
 .listado ul li:hover {
-  color: white;
+  color: rgb(116, 3, 3);
 }/*# sourceMappingURL=styles.css.map */

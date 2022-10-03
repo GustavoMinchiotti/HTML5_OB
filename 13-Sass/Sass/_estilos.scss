@@ -1,5 +1,5 @@
 /* Importing the mixins.scss file. */
-// lo importa para que siga teniendo coherencia
+// lo importa para que siga teniendo coherencia, Primero creo los mixins luego los usa aquí como las clases de bootstrap.
 @use "mixins";
 
 body {
@@ -25,7 +25,7 @@ p {
 
 .listado {
   width: 10rem;
-  background-color: rgb(89, 158, 135);
+  background-color: rgb(137, 214, 189);
   padding: 0.5rem;
 
   ul {
@@ -35,7 +35,7 @@ p {
       list-style: none;
 
       &:hover {
-        color: white;
+        color: rgb(116, 3, 3);
       }
     }
   }

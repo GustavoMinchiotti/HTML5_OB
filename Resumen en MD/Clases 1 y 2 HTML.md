@@ -666,3 +666,17 @@ NO FUNCIONABA no tenia privilegios y los cambie desde power shell como admin: ht
 
 ![img_77.png](img_77.png)
 
+### Funciones SASS
+Las funciones de los módulos builtin de Sass son muchos y muy amplios, en esta clase veremos varios por encima.
+https://sass-lang.com/documentation/modules 
+
+
+Con la palabra reservada `@Use` importo el módulo con esta sintaxis: `**@Use "sass:string"**`, para usarlos debemos 
+importarlos a `_styles.sass_`.
+
+![img_86.png](img_86.png) Con esto todos los modulos que importe a la hoja builtIn serán linkeados a styles.sass.
+
+Por lo que veo estas funciones con `@debug` son similares al manejo de strings en python y muestra los resultados en la 
+terminal dentro del IDE.
+https://www.w3schools.com/sass/sass_functions_string.php
+
