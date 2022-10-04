@@ -1,0 +1,63 @@
+@mixin btn-base {
+  padding: 0.25rem 1.5rem;
+  border-radius: 0.25rem;
+}
+
+@mixin btn-sm-modify {
+  font-size: 0.75rem;
+  padding: 0.1rem 1rem;
+}
+
+//variable con color principal de los botones
+$color-main: #0075ff;
+
+.btn-main {
+  @include btn-base();
+  background-color: $color-main;
+  color: white;
+  border: solid $color-main; //*le dejo este borde para que no se mueva al hacer hover
+
+  &:hover {
+    background-color: white;
+    color: $color-main;
+  }
+
+  &-s {
+    @extend .btn-main;
+    @include btn-sm-modify();
+    //* al principio cada botón sec tenia el mismo código para optimizar uso @mixin btn-sm-modify
+  }
+}
+
+.btn-sec {
+  @include btn-base();
+  color: #000;
+  background-color: transparent;
+  border: none;
+
+  &:hover {
+    color: #888;
+  }
+  &-s {
+    @extend .btn-sec;
+    @include btn-sm-modify();
+  }
+}
+
+.main-menu {
+  li {
+    font-size: 0.5rem;
+    list-style: none;
+    display: inline;
+  }
+}
+
+.icon-sm {
+  i {
+    padding: 0.1rem 00.25rem;
+    // border: 1px solid black;  // el color se uso para ver la forma y luego crear la sombra.
+    border-radius: 50%;
+    color: $color-main;
+    box-shadow: 0 0 10px #00000050; //0 de desplazamiento de x 0 de y -- 10px de tamaño -- color negro con 50 de transparencia
+  }
+}

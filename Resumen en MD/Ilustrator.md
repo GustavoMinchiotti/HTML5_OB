@@ -58,3 +58,51 @@ También se pueden sumar o restar desde uno de los nodos que tienen las formas a
 y mantiene el uso de `alt` para el centro y `shift` para la forma.
 
 ![img_85.png](img_85.png)
+## Clase 8
+### Pluma
+si hago click en distintos puntos trazo rectas, si mantengo el botón izq. apretado trazo curvas y si corro los puntos de 
+los manejadores cambio la forma de la curva. Si estoy trazando curvas y hago click sobre el último nodo mato un manejador 
+y la convierto en recta,
+
+![img_87.png](img_87.png)  ![img_88.png](img_88.png)
+
+## Clase 9 
+### pinceles
+desde el panel superior puedo elegir el tipo de trazo y en el panel de la derecha por ejemplo la terminacion de las 
+lineas.
+![img_89.png](img_89.png)  ![img_90.png](img_90.png)
+
+Con el pincel de manchas puedo rellenar mucho más fácil es para eso. ![img_91.png](img_91.png)
+
+Como se ve en la imagen los nodos estan fuera de las líneas y se pueden estirar para cubrir más.
+## Clase 10
+### Cómo funciona la herramienta de Buscatrazos
+El Buscatrazos o en inglés Pathfinder es una de las herramientas que se encuentra en la derecha que al hacer click en 
+ellas se despliega mostrando todas sus opciones y tiene un icono de dos cuadrados. Nos permite combinar varios objetos 
+utilizando modos de interacción. Estos modos de interacción pueden ser:
+
+* Trazos compuestos: Permiten utilizar un objeto para cortar un agujero en otro objeto.
+* Formas compuestas: Permiten combinar varios objetos y especificar cómo desea que cada objeto interactúe con los demás.
+
+![img_92.png](img_92.png)   No estaba, busque y anclé la herramienta.
+
+Para trabajar con el Buscatrazos lo que debemos hacer es, seleccionar varios objetos o formas.
+Las opciones vistas en la clase son llamadas Modos de forma, y son las siguientes, de izquierda a derecha:
+
+* La primera opción nos unifica nuestras formas creando una sola.
+* La segunda resta o elimina la forma que se encuentre encima.
+* La tercera mantiene solo la intersección de los dos objetos o formas.
+* La cuarta hace lo contrario, elimina la intersección y mantiene lo demás.
+
+**DATOS A RECORDAR:**
+
+Recuerda que para duplicar algo en Illustrator se hace con Selección (V) y mientras le das click y lo mueves mantienes
+alt.
+
+Para seleccionar varios objetos individualmente, en vez de seleccionarlos todos encerrándolos con el cursor, 
+podemos darle click a uno y manteniendo shift darle click al otro.
+
+Recuerda que cada vez que creamos un nuevo objeto, este quedará encima del anterior.
+
+![img_93.png](img_93.png)   ![img_94.png](img_94.png)
+

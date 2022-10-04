@@ -680,3 +680,22 @@ Por lo que veo estas funciones con `@debug` son similares al manejo de strings e
 terminal dentro del IDE.
 https://www.w3schools.com/sass/sass_functions_string.php
 
+## 14-15 Proyecto Final
+Está utilizando todo lo visto, cree varias carpetas , en la hoja principal instale via links bootstrap y utilizo sass 
+instalado desde la terminal COMPLEJO...
+
+_Parte de un boceto en figma que hizo y de ahí va creando los componentes._
+
+![img_95.png](img_95.png) ![img_96.png](img_96.png)
+
+Comienzo a trabajar los componentes, los botones, en la hoja componentes y solo va actualizando el css porque está bien 
+linkeado.
+
+Imagen de ejemplo, va a ser la única por su tamaño. Sass y abajo Css
+![img_97.png](img_97.png)
+
+![img_98.png](img_98.png)
+
+Al principio cada botón sec tenía el mismo código para optimizar uso `@mixin btn-sm-modify`
+Y ahora para optimizar aún más hace otro mixin con medias para no heredar de btn-main a btn-sec.
+
