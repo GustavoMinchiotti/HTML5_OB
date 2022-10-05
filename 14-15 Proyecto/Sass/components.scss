@@ -15,7 +15,7 @@ $color-main: #0075ff;
   @include btn-base();
   background-color: $color-main;
   color: white;
-  border: solid $color-main; //*le dejo este borde para que no se mueva al hacer hover
+  border: solid red; //*le dejo este borde para que no se mueva al hacer hover
 
   &:hover {
     background-color: white;
@@ -45,10 +45,19 @@ $color-main: #0075ff;
 }
 
 .main-menu {
+  margin-bottom: 0;
+  
   li {
-    font-size: 0.5rem;
+    font-size: 0.75rem;
     list-style: none;
     display: inline;
+    a{
+      color: #000;
+      text-decoration: none;
+      &:hover{
+        text-decoration: underline;
+      }
+    }
   }
 }
 
@@ -59,5 +68,48 @@ $color-main: #0075ff;
     border-radius: 50%;
     color: $color-main;
     box-shadow: 0 0 10px #00000050; //0 de desplazamiento de x 0 de y -- 10px de tamaño -- color negro con 50 de transparencia
+  }
+}
+
+.feature {
+  display: flex;
+  flex-direction: column;
+  .icon {
+    color: $color-main;
+    font-size: 10rem;
+    text-align: center;
+  }
+  .description {
+    .title {
+      font-size: 2rem;
+      text-align: center;
+    }
+    .text {
+      color: #888;
+      font-weight: 600;
+      text-align: center;
+    }
+  }
+  .cta {
+    color: $color-main;
+    font-weight: 600;
+    margin-top: 3rem;
+    text-align: center;
+  }
+}
+.icon-desk {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  .icon {
+    padding: 0;
+    color: $color-main;
+    font-size: 10rem;
+  }
+  .title {
+    margin-top: -2rem;  //* margen negativo
+    font-size: 1.5rem;
+    font-weight: 600;
   }
 }

@@ -3,7 +3,7 @@
   border-radius: 0.25rem;
   background-color: #0075ff;
   color: white;
-  border: solid #0075ff;
+  border: solid red;
 }
 .btn-main:hover, .btn-main-s:hover {
   background-color: white;
@@ -29,10 +29,20 @@
   padding: 0.1rem 1rem;
 }
 
+.main-menu {
+  margin-bottom: 0;
+}
 .main-menu li {
-  font-size: 0.5rem;
+  font-size: 0.75rem;
   list-style: none;
   display: inline;
+}
+.main-menu li a {
+  color: #000;
+  text-decoration: none;
+}
+.main-menu li a:hover {
+  text-decoration: underline;
 }
 
 .icon-sm i {
@@ -40,6 +50,66 @@
   border-radius: 50%;
   color: #0075ff;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.3137254902);
+}
+
+.feature {
+  display: flex;
+  flex-direction: column;
+}
+.feature .icon {
+  color: #0075ff;
+  font-size: 10rem;
+  text-align: center;
+}
+.feature .description .title {
+  font-size: 2rem;
+  text-align: center;
+}
+.feature .description .text {
+  color: #888;
+  font-weight: 600;
+  text-align: center;
+}
+.feature .cta {
+  color: #0075ff;
+  font-weight: 600;
+  margin-top: 3rem;
+  text-align: center;
+}
+
+.icon-desk {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.icon-desk .icon {
+  padding: 0;
+  color: #0075ff;
+  font-size: 10rem;
+}
+.icon-desk .title {
+  margin-top: -2rem;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+  height: 4rem;
+  border-bottom: solid 1px #ddd;
+}
+
+.logo img {
+  max-width: 7rem;
 }
 
 /*# sourceMappingURL=styles.css.map */

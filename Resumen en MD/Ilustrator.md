@@ -106,3 +106,28 @@ Recuerda que cada vez que creamos un nuevo objeto, este quedará encima del ante
 
 ![img_93.png](img_93.png)   ![img_94.png](img_94.png)
 
+## Clase 11
+### Importar imágenes y capas en Illustrator
+Importe un .png arrastrando desde una carpeta, voy a capas 
+
+![img_99.png](img_99.png)
+
+* con el ojo la muestra o no
+* con el candado se bloquea 
+* con la flecha se despliegan todos los objetos de la capa
+* con el círculo selecciono ese objeto en particular este donde este, Muy útil cuando están detrás de otros objetos.
+* La capa más nueva siempre va arriba y queda adelante, si quiero llevar algo atrás desde el panel de capas lo bajo una 
+posición más que la del objeto que quiero este delante
+
+![img_100.png](img_100.png)     ![img_101.png](img_101.png)
+
+Una de las formas de trabajar para copiar dibujos es a través de formas geométricas simples cortando lo que no sirve 
+y manejando las capas.
+![img_102.png](img_102.png)
+
+En esta imagen con el busca trazos selecciono las 2 y borro la diferencia.
+
+![img_103.png](img_103.png)
+
+Con esa herramienta si selecciono varios objetos los alinea verticalmente
+

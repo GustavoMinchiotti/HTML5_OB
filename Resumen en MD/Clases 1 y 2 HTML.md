@@ -686,6 +686,10 @@ instalado desde la terminal COMPLEJO...
 
 _Parte de un boceto en figma que hizo y de ahí va creando los componentes._
 
+![img_105.png](img_105.png)
+
+
+
 ![img_95.png](img_95.png) ![img_96.png](img_96.png)
 
 Comienzo a trabajar los componentes, los botones, en la hoja componentes y solo va actualizando el css porque está bien 
@@ -698,4 +702,19 @@ Imagen de ejemplo, va a ser la única por su tamaño. Sass y abajo Css
 
 Al principio cada botón sec tenía el mismo código para optimizar uso `@mixin btn-sm-modify`
 Y ahora para optimizar aún más hace otro mixin con medias para no heredar de btn-main a btn-sec.
+
+### 15 (se verá maquetado)
+### Terminando de crear los componentes
+Cada vez que vuelva a abrir VsCode debo iniciar Sass en la terminal.
+![img_104.png](img_104.png)
+
+### Menú de navegación
+kpi = key performance indicator
+Al empezar a maquetar toma las secciones de su ejemplo y las va creando en el html, las clases son bien diferenciadas 
+con nombres detallados.
+
+**_Un ejemplo de esta clase:_** al ya tener los componentes creados "sus clases" creé los dos botones ya formateados.
+![img_106.png](img_106.png)
+
+
 
