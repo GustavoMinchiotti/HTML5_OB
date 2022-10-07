@@ -15,7 +15,7 @@ $color-main: #0075ff;
   @include btn-base();
   background-color: $color-main;
   color: white;
-  border: solid red; //*le dejo este borde para que no se mueva al hacer hover
+  border: solid rgb(255, 102, 0); //*le dejo este borde para que no se mueva al hacer hover
 
   &:hover {
     background-color: white;
@@ -51,6 +51,7 @@ $color-main: #0075ff;
     font-size: 0.75rem;
     list-style: none;
     display: inline;
+    margin-right: 2rem;
     a{
       color: #000;
       text-decoration: none;
@@ -63,7 +64,8 @@ $color-main: #0075ff;
 
 .icon-sm {
   i {
-    padding: 0.1rem 00.25rem;
+    font-size: 1.25rem;
+    padding: 0.4rem 00.65rem;
     // border: 1px solid black;  // el color se uso para ver la forma y luego crear la sombra.
     border-radius: 50%;
     color: $color-main;

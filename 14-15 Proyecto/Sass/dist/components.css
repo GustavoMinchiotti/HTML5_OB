@@ -3,7 +3,7 @@
   border-radius: 0.25rem;
   background-color: #0075ff;
   color: white;
-  border: solid red;
+  border: solid #ff6600;
 }
 .btn-main:hover, .btn-main-s:hover {
   background-color: white;
@@ -36,6 +36,7 @@
   font-size: 0.75rem;
   list-style: none;
   display: inline;
+  margin-right: 2rem;
 }
 .main-menu li a {
   color: #000;
@@ -46,7 +47,8 @@
 }
 
 .icon-sm i {
-  padding: 0.1rem 0.25rem;
+  font-size: 1.25rem;
+  padding: 0.4rem 0.65rem;
   border-radius: 50%;
   color: #0075ff;
   box-shadow: 0 0 10px #00000050;

@@ -716,5 +716,22 @@ con nombres detallados.
 **_Un ejemplo de esta clase:_** al ya tener los componentes creados "sus clases" creé los dos botones ya formateados.
 ![img_106.png](img_106.png)
 
+### Sección Home
+Aligual que las clases anteriores voy siguiendo al profesor.
 
+![img_107.png](img_107.png) 
+
+form control es una clase de bootstrap.
+
+**Nada nuevo, pero obviamente falta mucha práctica**
+
+### Sección Features
+En esta clase al necesitar usar algunos parámetros en común con la sección anterior creo un `@mixin`.
+
+![img_108.png](img_108.png)  //  ![img_109.png](img_109.png)
+
+Ahora para dividir la parte que sigue se crean varios niveles de div, ver código porque es demasiado grande para pegar.
+
+
+### Sección Benefits
 

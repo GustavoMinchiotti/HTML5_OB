@@ -3,7 +3,7 @@
   border-radius: 0.25rem;
   background-color: #0075ff;
   color: white;
-  border: solid red;
+  border: solid rgb(255, 102, 0);
 }
 .btn-main:hover, .btn-main-s:hover {
   background-color: white;
@@ -36,6 +36,7 @@
   font-size: 0.75rem;
   list-style: none;
   display: inline;
+  margin-right: 2rem;
 }
 .main-menu li a {
   color: #000;
@@ -46,7 +47,8 @@
 }
 
 .icon-sm i {
-  padding: 0.1rem 0.25rem;
+  font-size: 1.25rem;
+  padding: 0.4rem 0.65rem;
   border-radius: 50%;
   color: #0075ff;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.3137254902);
@@ -110,6 +112,69 @@ body {
 
 .logo img {
   max-width: 7rem;
+}
+
+.sec-home {
+  display: flex;
+  width: 100%;
+  max-width: 992px;
+  margin: auto;
+  padding: 3rem;
+  align-items: center;
+}
+.sec-home .home-cta {
+  flex: 1rem;
+}
+.sec-home .home-cta .cta-text {
+  color: #0075ff;
+}
+.sec-home .home-cta .home-title {
+  width: 20rem;
+  font-size: 3rem;
+}
+
+.sec-features {
+  width: 100%;
+  max-width: 992px;
+  margin: auto;
+  padding: 3rem;
+}
+.sec-features .intro {
+  text-align: center;
+}
+.sec-features .intro h3 {
+  font-size: 1.8rem;
+}
+.sec-features .intro p {
+  font-size: 0.8rem;
+  color: #888;
+}
+.sec-features .features {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+.sec-features .features .text {
+  padding: 2rem 0;
+  flex: 1;
+}
+.sec-features .features .text .feature {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.sec-features .features .text .feature .description {
+  margin-left: 1rem;
+  max-width: 20rem;
+}
+.sec-features .features .text .feature .description .description-title {
+  font-size: 1.15rem;
+}
+.sec-features .features .text .feature .description .description-text {
+  font-size: 1rem;
+}
+.sec-features .features .image img {
+  max-width: 20rem;
 }
 
 /*# sourceMappingURL=styles.css.map */

@@ -1,3 +1,11 @@
+@use "components"; //? con este import puedo usar todos los estilos de components como color main
+
+@mixin section-display {
+  width: 100%;
+  max-width: 992px;
+  margin: auto;
+  padding: 3rem;
+}
 body {
   padding: 0;
   margin: 0;
@@ -11,6 +19,65 @@ body {
   height: 4rem;
   border-bottom: solid 1px #ddd;
 }
-.logo img{
-    max-width: 7rem;
+.logo img {
+  max-width: 7rem;
+}
+
+.sec-home {
+  display: flex;
+  @include section-display();
+  align-items: center;
+  .home-cta {
+    flex: 1rem;
+    .cta-text {
+      color: components.$color-main; //*asi obtengo el color de la hoja components
+    }
+    .home-title {
+      width: 20rem;
+      font-size: 3rem;
+    }
+  }
+}
+
+.sec-features {
+  @include section-display();
+  .intro {
+    text-align: center;
+    h3 {
+      font-size: 1.8rem;
+    }
+    p {
+      font-size: 0.8rem;
+      color: #888;
+    }
+  }
+  .features {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    .text {
+      padding: 2rem 0;
+      flex: 1;      
+      .feature {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        .description {
+          margin-left: 1rem;
+          max-width: 20rem;
+          .description-title {
+            font-size: 1.15rem;
+          }
+          .description-text {
+            font-size: 1rem;
+          }
+        }
+      }
+    }
+    .image {
+      img {
+        max-width: 20rem;
+      }
+    }
+  }
 }
