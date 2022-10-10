@@ -733,5 +733,8 @@ En esta clase al necesitar usar algunos parámetros en común con la sección an
 Ahora para dividir la parte que sigue se crean varios niveles de div, ver código porque es demasiado grande para pegar.
 
 
-### Sección Benefits
+### Sección Benefits // KPIs
+En esta clase copié el código.
+Git hub no me muestra dos archivos Sass solo veo globals, en la pull que hice a mi carpeta local si están esos archivos.
 
+## Tuve que copiar el ejercicio resuelto porque empezó a mostrar un error de compilation y no lo supe resolver
