@@ -79,15 +79,24 @@ Otros ejemplos son número, e-mail, fecha.. sencillamente, me va a requerir esos
 
 ![img_13.png](img_13.png)
 
+Sacar las flechas de los números en formularios
+
+https://khaalipaper.com/html/remove-arrows-from-input-type-number.php
+
+
 ### Tablas
+
 Al menos en la 1.er clase no hay demasiado para explicar, las etiquetas son sencillas y la tabla si no le pasamos formato 
 va tomando forma sola. 
 
 Etiquetas de esta clase: ``<table> / <th> / <td>``
+
  Ejercicio n.º 2:
+
 ![img_14.png](img_14.png) 
 ![img_15.png](img_15.png)
 ![img_16.png](img_16.png)
+
 Lo interesante del resultado es que el **live server** abrio la carpeta superior a donde está creado este trabajo.
 
 ![img_17.png](img_17.png) 
@@ -141,7 +150,10 @@ el color de la fuente.
 Para inspeccionar elementos, los selecciono --> luego click derecho --> inspeccionar. 
 La herramienta de google me dice que es un h1 y muestra su estilo en css.
 
-![img_22.png](img_22.png) ![img_23.png](img_23.png)
+![img_22.png](img_22.png) 
+
+![img_23.png](img_23.png)
+
 ![img_24.png](img_24.png)
 
 ### Selectores en CSS
@@ -182,9 +194,10 @@ En el último ejemplo agrupo reglas en clases, encabezados etc.
 Ejemplo en carpeta **04-Intro-css** página **utilidadesCss**
 
 ### Colores
-https://coolors.co/ = pagina para paletas de colores
-clase muy básica ver la herramienta coolors, esta muy buena.
+https://coolors.co/ = pagina para paletas de colores clase muy básica ver la herramienta coolors, esta muy buena.
+
 ![img_32.png](img_32.png)
+
 ![img_33.png](img_33.png) Salida ![img_34.png](img_34.png)
 
 ### Fondos de colores e imágenes
@@ -215,7 +228,9 @@ También se pueden manejar los ejes x e y, en la sintaxis va a ser primero horiz
 
 * A su vez hay dos formas de importar desde el link y pegarlo en el head de html o copiar el estilo en css.
 * Estas 2 formas están explicadas en los comentarios de las capturas y en el texto de html también.
+
 ![img_45.png](img_45.png)
+
 ![img_46.png](img_46.png)
 SALIDA
 
@@ -615,11 +630,13 @@ Para que reconozca los Sass VsCode instalo:
 
 ![img_69.png](img_69.png)
 
-![img_70.png](img_70.png)  Una vez instalado abro la terminal. 
+![img_70.png](img_70.png)  
+
+Una vez instalado abro la terminal. 
 
 Luego crea archivos css: ![img_71.png](img_71.png)
 
-A esa hoja css es debe llevar el link desde html.
+A esa hoja css se debe llevar el link desde html.
 
 ![img_72.png](img_72.png)
 
@@ -738,3 +755,58 @@ En esta clase copié el código.
 Git hub no me muestra dos archivos Sass solo veo globals, en la pull que hice a mi carpeta local si están esos archivos.
 
 ## Tuve que copiar el ejercicio resuelto porque empezó a mostrar un error de compilation y no lo supe resolver
+## platzi div
+
+El HTML semántico consiste en que cada elemento tenga su propia etiqueta que lo defina correctamente. Sin utilizar 
+etiquetas muy generales, como `<div>` o `<span>`.
+
+Las etiquetas semánticas pueden utilizarse en lugar de las etiquetas de presentación estándar y esto ayuda a mejorar la 
+legibilidad y la usabilidad, al tiempo que reduce la necesidad de datos estructurados. Esta nueva forma de concebir la 
+programación permite crear sitios web más accesibles y más significativos para los motores de búsqueda. El marcado 
+semántico también es beneficioso porque permite hacer hojas de estilo CSS separadas para cada sección de su sitio web.
+
+El problema con la etiqueta div La etiqueta div define un bloque genérico de contenido, que no tiene ningún valor 
+semántico. Se utiliza para elementos de diseño como contenedores.
+
+**¿Cuáles son las etiquetas semánticas?**
+Las etiquetas semánticas para definir una interfaz de una página web son:
+
+* `<header>`: define el encabezado de la página (no confundir con `<head>`).
+* `<nav>`: define una barra de navegación que incluye enlaces.
+* `<section>`: define una sección de la página.
+* `<footer>`: define un pie de página o de sección.
+* `<article>`: define un artículo, el cual puede tener su propio encabezado, navegación, sección o pie de página.
+Ahora que ya conoces las etiquetas semánticas, evita el uso excesivo de `<div>`.
+
+![img_123.png](img_123.png)
+
+**Las ventajas de utilizar un HTML semántico son:**
+
+* Ayuda a tu sitio a ser accesible
+* Mejora tu posicionamiento (SEO)
+* Código más claro, legible y mantenible
+* Ayuda a buscadores (como Google) a encontrar tu página
+
+**¿Cuál es la diferencia entre el HTML semántico dinámico y estático?**
+
+Una de las partes más importantes del desarrollo web son los atributos semánticos del HTML. La semántica estática es el 
+significado de una palabra o frase que se mantiene constante independientemente del contexto, mientras que la semántica 
+dinámica cambia en función de su uso.
+
+* **Semántica estática**
+
+La semántica estática se utiliza para definir diferentes tipos de etiquetas en HTML. No dependen de ningún otro dato 
+contextual, sino que permanecen constantes independientemente de su uso. Por ejemplo:
+
+Al definir una etiqueta de párrafo, el navegador sabe que es un párrafo, independientemente de si se utiliza para poesía 
+o prosa.
+
+* **Semántica dinámica**
+
+Se utiliza para definir dinámicamente el contenido de un elemento. El significado cambia en función del texto que hay 
+dentro y de las palabras que lo rodean. Por ejemplo, si tiene un elemento que define la ubicación de una empresa como 
+Bogotá, el HTML mostrará “Bogotá” cuando el cursor pase por encima de ese elemento concreto en una página web o cuando 
+se vea ese elemento en Google Maps.
+
+![img_124.png](img_124.png)
+
